@@ -1,0 +1,295 @@
+body{
+    padding: 0px;
+    margin: 0%;
+    background-color: black;
+    color: bisque;
+
+}
+
+header{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(155, 33, 33);
+    position: fixed;
+    color: white;
+    width: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.Logo_Img{
+    height: 90px;
+    padding: 5px;
+}
+
+.subtitulos{
+    margin-top: 200px;
+    font-size: 100px;
+    color:rgb(0, 0, 0);
+    padding: 5px;
+    background-color: rgb(155, 33, 33);
+    border-radius: 60%;
+    width: fit-content;
+    margin-left: 470px;
+}
+
+.texto{
+    color: rgb(155, 33, 33);
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+}
+
+.listado{
+   background-image:url(Imagenes/fondodos.jpg);
+   padding-bottom: 100px;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   font-size: 30px;
+   font-family:'Times New Roman', Times, serif;
+   text-align: center;
+   color:rgb(155, 33, 33); 
+   padding-top: 50px; 
+   margin-bottom: 0%;
+}
+
+.lista{
+    background-color: black;
+    width: 500px;
+    text-align:center;
+    margin-left: 470px;
+    margin-right: 300px;
+    margin-bottom: 0%;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    background-color:rgb(155, 33, 33) ;
+
+}
+.video{
+    width: 768px;
+    margin: 0%;
+    padding: 0%;
+
+}
+.texto-video{
+    font-size: 50px;
+    text-align: end;
+    margin: 0%;
+}
+
+.presentacion2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:black;
+    color: rgb(155, 33, 33) ;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.texto-video2{
+    font-size: 50px;
+    text-align: start;
+    margin: 0%;
+    padding-bottom: 0%;
+}
+
+footer{
+    background-color:rgb(155, 33, 33) ;
+    margin-bottom: 0%;
+    display: flex;
+    margin-bottom: 0%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.lista-footer{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 0%;
+    align-items: center;
+}
+
+.contactanos{
+    margin-left:5px ;
+}
+
+.Selector{
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    text-align:center;
+    margin-left: 500px;
+    margin-right: 300px;
+    margin-bottom: 0%;
+}
+
+.Texto-Selector{
+    font-family:'Courier New', Courier, monospace;
+    width: fit-content;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(155, 33, 33);
+    border-radius: 5%; 
+    font-size: 30px;
+
+}
+
+.accion{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:baseline;
+    background-image: url(Imagenes/shooter.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aventura{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:baseline;
+    background-image: url(Imagenes/aventura.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.estrategia{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:baseline;
+    background-image: url(Imagenes/Estrategia.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.terror{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:baseline;
+    background-image: url(Imagenes/terror.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card{
+    margin-top: 30px;
+    background-color: white;
+    margin-bottom: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: static;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-body{
+    color: black;
+    background-color: rgb(155, 33, 33);
+}
+
+.card-title{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.titulo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color: rgb(155, 33, 33);
+}
+
+@media (max-width: 1000px){
+.lista{
+    margin-left: 200px;
+}
+.subtitulos{
+    margin-left: 100px;
+}
+.Selector{
+    margin-left: 270px;
+    margin-right: 200px;
+}
+}
+@media (max-width: 650px) {
+    .accion{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aventura{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .estrategia{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .terror{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header{
+        flex-direction: column;
+    }
+    .subtitulos{
+    margin-left: 50px;
+    }
+    .lista{
+  margin-left: 50px;
+    }
+    .Selector{
+        margin-left: 120px;
+        padding-top: 200px;
+        margin-right: 100px;
+    }
+    .video{
+        width: 100%;
+        margin: 0%;
+}
+.presentacion{
+    flex-direction: column;
+}
+.texto-video{
+    text-align: center;
+}
+.presentacion2{
+    flex-direction: column;
+}
+.texto-video2{
+    text-align: center;
+}
+}
