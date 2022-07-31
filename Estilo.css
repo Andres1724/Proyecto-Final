@@ -274,7 +274,9 @@ td{
     margin: auto;
     width: fit-content;
     text-align: center;
- 
+    background-color: rgb(155, 33, 33);
+    margin-bottom: 50px;
+    border-radius: 10%;
 
 }
 
